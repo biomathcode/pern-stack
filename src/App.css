@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Segoe UI' ;
 }
 
 .App-logo {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.space {
+  padding: 2%;
+  margin: 1%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.jcb {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.border {
+  border: 1px solid #282c34;
+  border-radius: 5px;
 }
